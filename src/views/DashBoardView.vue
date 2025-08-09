@@ -19,7 +19,7 @@
     <br>
     <div class="status-success" v-if="signInStatus === STATUS.success">
       <p>登入成功！</p>
-      <p>uid: {{ logInToken }}</p>
+      <p>token: {{ logInToken }}</p>
     </div>
     <div class="status-error" v-if="signInStatus === STATUS.error">
       <p>登入失敗：{{ signInInfo }}</p>
